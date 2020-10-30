@@ -1,0 +1,54 @@
+*, body, html {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    box-sizing: border-box;
+    color: #666;
+   
+}
+
+main{
+    min-width: 320px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+}
+
+header, footer, section{
+    width: calc(100vw - 10px); 
+    height: calc(25vh - 10px); 
+    margin: 5px 5px;  
+}
+
+header{
+    background-color: rgb(238, 113, 113);
+}
+section{
+    background-color: #4e4ef8;
+}
+footer{
+    background-color: rgb(2, 158, 2);
+}
+
+@media screen and (min-width: 650px){
+
+    header, footer{
+        float: left;
+    }
+
+    #section_first{
+        width: calc(30vw - 10px);
+        height: calc(50vh - 10px);
+        float: left;
+    }
+
+    #section_body{
+        width: calc(70vw - 10px);
+        height: calc(50vh - 10px);
+        float: left;
+    }
+
+}
